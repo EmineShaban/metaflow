@@ -1,4 +1,44 @@
-body{
-    font-family: Montserrat,sans-serif;
+body {
+  font-family: "Montserrat";
+}
+img {
+  width: 100%;
+}
+header {
+  background-color: #166683;
+}
+nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 0;
 }
 
+.logo {
+  width: 170px;
+  margin: auto 0;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header ul li {
+  margin: auto 12px;
+}
+header ul li a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.cart{
+    margin: auto 0;
+}
+.cart a i{
+    color: white;
+    font-size: 25px;
+}

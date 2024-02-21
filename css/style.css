@@ -1,13 +1,27 @@
 body {
   font-family: "Montserrat";
 }
-.container{
-    width: 65%;
-    margin: auto;
+.container {
+  width: 80%;
+  margin: auto;
 }
 img {
   width: 100%;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
 header {
   background-color: #166683;
 }
@@ -39,49 +53,119 @@ header ul li a {
   text-transform: uppercase;
   font-weight: 500;
 }
-.cart{
-    margin: auto 0;
+.cart {
+  margin: auto 0;
 }
-.cart a i{
-    color: white;
-    font-size: 25px;
-}
-
-
-.sw-img{
-    width: 66%;
-    margin: auto;
-}
-.sw-img img{
-    padding: 25px 0;
-}
-.hero{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 50px 0;
+.cart a i {
+  color: white;
+  font-size: 25px;
 }
 
-.sw{
-    width: 600px;
+.sw-img {
+  width: 80%;
+  margin: auto;
 }
-h1{
-    color: #166683;
-    font-size: 40px;
+.sw-img img {
+  padding: 25px 0;
 }
-.stars{
-    display: flex;
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 0;
+}
 
+.sw {
+  width: 720px;
+  margin: auto;
 }
-.stars p:first-child{ 
-    margin-right: 20px;
+h1 {
+  color: #166683;
+  font-size: 40px;
 }
-.stars p{
-    color: #166683;
+.stars {
+  display: flex;
+}
+.stars p:first-child {
+  margin-right: 20px;
+}
+.stars p {
+  color: #166683;
+  font-weight: 800;
+  margin: auto 0;
+}
+.stars p i {
+  font-size: 20px;
+  margin: 0 1px;
+  color: #4bb6dc;
+}
+
+.text ul li {
+  color: #166683;
+  list-style-type: disc;
+  margin: 12px auto;
+  font-size: 19px;
+}
+
+div.swiper-button-next,
+div.swiper-button-prev {
+  color: #4bb6dc;
+  font-size: 10px;
+}
+div.swiper-button-next::after,
+div.swiper-button-prev::after {
+  font-size: 25px;
+}
+
+.text {
+  margin: auto;
+}
+
+.cta {
+  background-color: #e83c5a;
+  width: 35%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 12px 12px;
+  margin: 25px 0;
+}
+
+.cta a {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+  padding: 15px 12px;
+}
+
+.price {
+  color: #166683;
+  font-weight: 800;
+  font-size: 35px;
+  margin: 15px 0;
+}
+
+.price span {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.ingr {
+  color: #166683;
+}
+
+.ingr-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  font-size: 22px; 
+}
+
+.ingr-title p:last-child{
+    text-align: right;
     font-weight: 800;
-    margin: auto 0;
 }
-.stars p i{
-    font-size: 20px;
-    margin: 0 1px;
-    color: #4bb6dc;
+
+
+.ingr-text{
+    display: none;
 }

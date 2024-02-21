@@ -12,7 +12,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/470297acee.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/470297acee.js" crossorigin="anonymous"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 
     <!-- metrica!!!!!!! -->
@@ -32,28 +34,63 @@
 
     </div>
 
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.webp" alt="">
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Home</a></li>
+
+            </ul>
+            <div class="cart"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></div>
+        </nav>
+    </header>
     <main class="container">
 
-        <header>
-            <nav>
 
-
-                <div class="logo">
-                    <img src="./images/logo.webp" alt="">
+        <div class="hero">
+            <!-- Swiper -->
+            <div class="sw">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="sw-img"><img src="./images/metaflow-probiermonat-mit-gratis-shaker-2024-h.webp"
+                                    alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sw-img"><img
+                                    src="./images/230728_MF_Mood_Shots_2_1000x1000_38adf594-ee71-402e-8c6f-cbbc98904e69.webp"
+                                    alt=""></div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="sw-img"><img
+                                    src="./images/230728_MF_Mood_Shots_4_1000x1000_5304f9bd-5208-4e1e-9740-9360548019db.webp"
+                                    alt=""></div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
+            </div>
+            <div class="text">
+                <div class="stars">
+                    <p>6477 review</p>
+                    <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                            class="fa-solid fa-star-half-stroke"></i></p>
+                </div>
+                <h1>Trial month + FREE shaker
+                </h1>
+            </div>
+        </div>
 
-                </ul>
-                <div class="cart"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></div>
-            </nav>
-        </header>
-        <h1>Trial month + FREE shaker
-        </h1>
 
     </main>
 
@@ -69,6 +106,25 @@
 
 
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
     <script src="./js/cookie.js"></script>
     <script src="./js/index.js"></script>
     <script src='/cdn/js/fa_events.js'></script>

@@ -1,6 +1,10 @@
 body {
   font-family: "Montserrat";
 }
+.container{
+    width: 65%;
+    margin: auto;
+}
 img {
   width: 100%;
 }
@@ -41,4 +45,43 @@ header ul li a {
 .cart a i{
     color: white;
     font-size: 25px;
+}
+
+
+.sw-img{
+    width: 66%;
+    margin: auto;
+}
+.sw-img img{
+    padding: 25px 0;
+}
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0;
+}
+
+.sw{
+    width: 600px;
+}
+h1{
+    color: #166683;
+    font-size: 40px;
+}
+.stars{
+    display: flex;
+
+}
+.stars p:first-child{ 
+    margin-right: 20px;
+}
+.stars p{
+    color: #166683;
+    font-weight: 800;
+    margin: auto 0;
+}
+.stars p i{
+    font-size: 20px;
+    margin: 0 1px;
+    color: #4bb6dc;
 }

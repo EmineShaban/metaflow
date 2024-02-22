@@ -370,23 +370,20 @@ div.swiper-button-prev::after {
   margin-left: auto;
 }
 
-
 .grad-text:last-child {
-    text-align: left;
-  }
-  
-  .grad-text:last-child p {
-    width: 50%;
-    margin-right: auto;
-  }
-  
-
-  .white{
-    padding: 35px;
-    border-radius: 15px;
-    background: linear-gradient(45deg, #fff 30%, #a3d7ec 80%);
-    font-size: 20px;
-    font-weight: 900;
-    margin: 0;
+  text-align: left;
 }
- 
+
+.grad-text:last-child p {
+  width: 50%;
+  margin-right: auto;
+}
+
+.white {
+  padding: 35px;
+  border-radius: 15px;
+  background: linear-gradient(45deg, #fff 30%, #a3d7ec 80%);
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0;
+}

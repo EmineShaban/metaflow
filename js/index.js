@@ -5,12 +5,15 @@ let text = document.getElementsByClassName("ingr-text");
 const onClick = (e) => {
   console.log(e.target.parentElement.children[1]);
   console.log(e.target)
-  if (e.target.parentElement.parentElement.children[1].style.display == "block") {
+  if ( e.target.parentElement.children[1].textContent == "-") {
     e.target.parentElement.parentElement.children[1].style.display = "none";
     e.target.parentElement.children[1].textContent = "+";
   } else {
-    e.target.parentElement.parentElement.children[1].style.display = "block";
-    e.target.parentElement.children[1].textContent = "-";
+    if(e.target.parentElement.children[1].textContent == "+"){
+        e.target.parentElement.parentElement.children[1].style.display = "block";
+        e.target.parentElement.children[1].textContent = "-";
+    }
+   
   }
   console.log(text);
 };

@@ -169,3 +169,7 @@ div.swiper-button-prev::after {
 .ingr-text{
     display: none;
 }
+
+.ingr-title:first-child{
+    border-bottom: 1px #166683 solid;
+}

@@ -387,3 +387,95 @@ div.swiper-button-prev::after {
   font-weight: 900;
   margin: 0;
 }
+
+.reviews {
+  background-color: #def0f8;
+  color: #166683;
+  padding-bottom: 35px;
+}
+
+.reviews h3 {
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+.reviews-div {
+  width: 70%;
+  margin: auto;
+}
+.reviews-div p {
+  margin-top: 0;
+}
+.reviews-div p i {
+  font-size: 25px;
+}
+
+.review p i {
+  font-size: 18px;
+}
+
+.review p {
+  margin: 0;
+}
+.review {
+  padding: 15px 0;
+}
+
+/* Pagination links */
+.pagination {
+  margin: 10px 0;
+}
+.pagination p {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+/* Style the active/current link */
+.pagination p.active {
+  background-color: #166683;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination p:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.second,
+.third {
+  display: none;
+}
+
+/* money */
+
+.money {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  gap: 25px;
+  margin: 25px auto;
+  color: #166683;
+}
+
+.money-text {
+  margin: auto;
+}
+
+.money-img {
+  width: 70%;
+  margin: auto;
+}
+.money-text h3 {
+  font-size: 25px;
+}
+
+
+.container2{
+    width: 70%;
+    margin: auto;
+}
+.small{
+    width: 20%;
+}

@@ -68,15 +68,9 @@ header ul li a {
 .sw-img img {
   padding: 25px 0;
 }
-.hero {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 50px 0;
-}
 
 .sw {
-  width: 720px;
-  margin: auto;
+  width: 720px; 
 }
 h1 {
   color: #166683;
@@ -116,10 +110,6 @@ div.swiper-button-prev::after {
   font-size: 25px;
 }
 
-.text {
-  margin: auto;
-}
-
 .cta {
   background-color: #e83c5a;
   width: 35%;
@@ -157,19 +147,112 @@ div.swiper-button-prev::after {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
-  font-size: 22px; 
+  font-size: 22px;
 }
 
-.ingr-title p:last-child{
-    text-align: right;
-    font-weight: 800;
+.ingr-title p:last-child {
+  text-align: right;
+  font-weight: 800;
+}
+
+.ingr-text {
+  display: none;
+}
+
+.ingr-title {
+  border-bottom: 1px #166683 solid;
+}
+
+.ingr-title p {
+  margin: 0;
+  padding: 15px 0;
+}
+.hero {
+  display: flex;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  margin: 50px 0;
+}
+
+.sw {
+  height: fit-content;
+  width: 40%;
+  position: sticky;
+  z-index: 1;
+  top: 5%;
+
+  overflow-x: hidden;
+}
+.first-section {
+  position: relative;
+}
+
+.text {
+  width: 55%;
+  margin-left: auto;
+}
+
+/* bullets */
+
+.bullets {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.bullet {
+  margin: auto;
+}
+.bullet img {
+  width: 80px;
+  height: 80px;
+}
+.bullet-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bullet p {
+  font-weight: 500;
+  color: #166683;
+  text-align: center;
+}
+
+.bullets{
+    position: unset;
 }
 
 
-.ingr-text{
-    display: none;
+/* comments */
+
+.sw1-img{
+    width: 80%;
+    margin: auto;
 }
 
-.ingr-title:first-child{
-    border-bottom: 1px #166683 solid;
+.sw1-img img{
+    border-radius: 15px;
+
+}
+
+.sw1-div p{
+    text-align: center;
+    color: #166683;
+    margin: 0;
+}
+
+.name{
+    margin-top: 8px;
+}
+
+.comments{
+    background-color: #def0f8;
+}
+
+.comments h3{
+    color: #166683;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding: 25px;
 }

@@ -293,69 +293,100 @@ div.swiper-button-prev::after {
   margin: auto;
 }
 
-.packs-div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 70%;
-    gap: 25px;
-    margin: auto;
+.packs-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  gap: 25px;
+  margin: auto;
 }
 
-.pack-img{
-    width: 40%;
-    margin: auto;
+.pack-img {
+  width: 40%;
+  margin: auto;
 }
 
-.packs{
-    background-color: #f8f7f2;
-    color: #166683;
-    padding-bottom: 25px;
-
+.packs {
+  background-color: #f8f7f2;
+  color: #166683;
+  padding-bottom: 25px;
 }
 
-.packs h3{
-    text-align: center;
-    font-size: 35px;
-    padding: 25px;
+.packs h3 {
+  text-align: center;
+  font-size: 35px;
+  padding: 25px;
 }
-.pack-title{
-    font-weight: 700;
-    font-size: 18px;
-    text-align: center;
-}
-
-.pack{
-    text-align: center;
-}
-.center2{
-    margin: 25px auto;
-    width: 15%;
-
+.pack-title {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
 }
 
+.pack {
+  text-align: center;
+}
+.center2 {
+  margin: 25px auto;
+  width: 15%;
+}
 
 /* 360grad */
-.grad360{
-    background-image: unset; 
-    background: linear-gradient(0deg,#fff 10%,  #A3D7EC 100%);
-    color: #166683;
+.grad360 {
+  background-image: unset;
+  background: linear-gradient(0deg, #fff 10%, #a3d7ec 100%);
+  color: #166683;
 }
 
-.white{
-    background-color: white;
+.white {
+  background-color: white;
 }
 
-.grad-flex{
-    display: flex;
+.grad-flex {
+  display: flex;
 }
 
-.grad360 h3{
-    text-align: center;
-    font-size: 35px;
-    padding-top: 25px;
-    margin-top: 0;
+.grad360 h3 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 25px;
+  margin-top: 0;
 }
-.title{
-    text-align: center;
+.title {
+  text-align: center;
+}
+.grad-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: 500;
+}
+.grad-text:first-child {
+  text-align: right;
+}
 
+.grad-text:first-child p {
+  width: 50%;
+  margin-left: auto;
 }
+
+
+.grad-text:last-child {
+    text-align: left;
+  }
+  
+  .grad-text:last-child p {
+    width: 50%;
+    margin-right: auto;
+  }
+  
+
+  .white{
+    padding: 35px;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #fff 30%, #a3d7ec 80%);
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+}
+ 

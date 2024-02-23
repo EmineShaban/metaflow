@@ -26,10 +26,17 @@ let digit = document.getElementsByClassName("digit");
 const onChange = (e) => {
   if (e.target.textContent == "1") {
     console.log(e.target.parentElement.children);
-    for (let i = 0; i < e.target.parentElement.parentElement.children.length; i++) {
-        if(i>=3 && i< e.target.parentElement.parentElement.children.length - 1){
-            e.target.parentElement.parentElement.children[i].style.display = "none";
-        }
+    for (
+      let i = 0;
+      i < e.target.parentElement.parentElement.children.length;
+      i++
+    ) {
+      if (
+        i >= 3 &&
+        i < e.target.parentElement.parentElement.children.length - 1
+      ) {
+        e.target.parentElement.parentElement.children[i].style.display = "none";
+      }
     }
     e.target.parentElement.parentElement.children[3].style.display = "block";
     for (let i = 0; i < e.target.parentElement.children.length; i++) {
@@ -38,10 +45,17 @@ const onChange = (e) => {
     e.target.classList = "digit active";
   } else if (e.target.textContent == "2") {
     console.log(e.target.parentElement.children);
-    for (let i = 0; i < e.target.parentElement.parentElement.children.length; i++) {
-        if(i>=3 && i< e.target.parentElement.parentElement.children.length - 1){
-            e.target.parentElement.parentElement.children[i].style.display = "none";
-        }
+    for (
+      let i = 0;
+      i < e.target.parentElement.parentElement.children.length;
+      i++
+    ) {
+      if (
+        i >= 3 &&
+        i < e.target.parentElement.parentElement.children.length - 1
+      ) {
+        e.target.parentElement.parentElement.children[i].style.display = "none";
+      }
     }
     e.target.parentElement.parentElement.children[4].style.display = "block";
     for (let i = 0; i < e.target.parentElement.children.length; i++) {
@@ -50,10 +64,17 @@ const onChange = (e) => {
     e.target.classList = "digit active";
   } else if (e.target.textContent == "3") {
     console.log(e.target.parentElement.children);
-    for (let i = 0; i < e.target.parentElement.parentElement.children.length; i++) {
-        if(i>=3 && i< e.target.parentElement.parentElement.children.length - 1){
-            e.target.parentElement.parentElement.children[i].style.display = "none";
-        }
+    for (
+      let i = 0;
+      i < e.target.parentElement.parentElement.children.length;
+      i++
+    ) {
+      if (
+        i >= 3 &&
+        i < e.target.parentElement.parentElement.children.length - 1
+      ) {
+        e.target.parentElement.parentElement.children[i].style.display = "none";
+      }
     }
     e.target.parentElement.parentElement.children[5].style.display = "block";
     for (let i = 0; i < e.target.parentElement.children.length; i++) {
@@ -65,4 +86,19 @@ const onChange = (e) => {
 
 for (let index = 0; index < digit.length; index++) {
   digit[index].addEventListener("click", onChange);
+}
+
+let q = document.getElementsByClassName("q");
+let a = document.getElementsByClassName("a");
+const onOpen = (e) => {
+  if (e.target.classList == "q") {
+    console.log(e.target.parentElement.children[1]);
+    for (let i = 0; i < a.length; i++) {
+      a[i].style.display = "none";
+    }
+    e.target.parentElement.children[1].style.display = "block";
+  }
+};
+for (let index = 0; index < q.length; index++) {
+  q[index].addEventListener("click", onOpen);
 }

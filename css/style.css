@@ -492,3 +492,13 @@ div.swiper-button-prev::after {
     font-size: 25px;
 
 }
+
+.q{
+    font-weight: 800;
+    border-bottom: #166683 1px solid;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.a{
+    display: none;
+}

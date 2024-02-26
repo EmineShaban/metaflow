@@ -556,3 +556,111 @@ footer p.disclaimer {
   line-height: 1;
   font-size: 14px;
 }
+.grad-img{
+  margin: auto;
+}
+
+@media screen and (max-width: 1500px) {
+.container,
+.container2{
+  width: 85% ;
+}
+.sw {
+   width: 43%;
+}
+nav {
+  width: 85%;
+}
+.text {
+  width: 55%;
+}
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container, .container2 {
+    width: 90%;
+}
+  nav {
+    width: 90%;
+  }
+  .text {
+    width: 50%;
+  }
+  .sw {
+    width: 48%;
+ }
+ .center {
+  margin: 25px auto;
+  width: 35%;
+}
+.packs-div { 
+  width: 85%;
+}
+
+.grad-text:first-child p {
+  width: 75%;
+  margin-left: auto;
+}
+
+.grad-text:last-child p {
+  width: 75%;
+}
+.center {
+  margin: 25px auto;
+  width: 70%;
+} 
+}
+
+
+@media screen and (max-width: 994px) {
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .sw {
+    width: 80%;
+    margin: auto;
+    position: relative;
+
+}
+.text {
+  width: 100%;
+  margin: auto;
+  margin-top: 35px;
+}
+.center {
+  margin: 25px auto;
+  width: 50%;
+}
+.delicious-div{
+  display: block;
+}
+.pack-img {
+  width: 65%;
+  margin: auto;
+}
+.center2 {
+  margin: 25px auto;
+  width: 20%;
+}
+.small {
+  width: 37%;
+}
+.delicious-img {
+  width: 60%;
+  margin: auto;
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}

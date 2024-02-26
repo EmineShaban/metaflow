@@ -8,6 +8,7 @@
 }
 
 .cookie-container {
+  z-index: 55;
   position: fixed;
   bottom: -100%;
   left: 0;
